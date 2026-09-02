@@ -122,6 +122,16 @@
         .footer a:hover {
             text-decoration: underline;
         }
+        .status-badge {
+            display: inline-block;
+            background: rgba(100,255,218,0.15);
+            color: #64ffda;
+            font-size: 0.65rem;
+            padding: 2px 10px;
+            border-radius: 12px;
+            margin-left: 10px;
+            font-weight: 400;
+        }
         @media (max-width: 480px) {
             .container { padding: 30px 20px; }
             h1 { font-size: 1.6rem; }
@@ -132,7 +142,10 @@
 <body>
     <div class="container">
         <h1>🚀 Ochuna Suite</h1>
-        <div class="subtitle">Enterprise Software Solutions — Kenya</div>
+        <div class="subtitle">
+            Enterprise Software Solutions — Kenya
+            <span class="status-badge">● LIVE</span>
+        </div>
         
         <div class="app-grid">
             <a href="#" class="app-btn" data-app="harambee">
@@ -172,25 +185,26 @@
     </div>
 
     <script>
-        // App URL mapping - EDIT THESE URLs
+        // App URL mapping - All apps deployed on Render
         const appUrls = {
-            harambee: 'https://your-harambee-app.com',
-            mashamba: 'https://your-mashamba-app.com',
-            wholesaler: 'https://your-wholesaler-app.com',
-            cashier: 'https://your-cashier-finder.com',
-            groups: 'https://your-groups-badge.com'
+            harambee: 'https://harambee-wasl.onrender.com',
+            mashamba: 'https://mashamba-wzka.onrender.com',
+            wholesaler: 'https://wholesaler-nk72.onrender.com',
+            cashier: 'https://cashier-finder.onrender.com',
+            groups: 'https://bodabodaregister.onrender.com'
         };
 
-        // Click handlers
+        // Click handlers for app buttons
         document.querySelectorAll('.app-btn').forEach(btn => {
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
                 const appKey = this.dataset.app;
                 const url = appUrls[appKey];
                 if (url && url !== '#') {
-                    window.location.href = url;
+                    // Open in new tab (optional - remove target for same tab)
+                    window.open(url, '_blank');
                 } else {
-                    alert('🔧 App URL not configured yet.\nContact: jamesochuna37@gmail.com');
+                    alert('🔧 App not configured yet.\nContact: jamesochuna37@gmail.com');
                 }
             });
         });
@@ -204,6 +218,18 @@
                 localStorage.clear();
                 window.location.href = window.location.pathname; // Reload to home
             }
+        });
+
+        // Optional: Add animation on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.container');
+            container.style.opacity = '0';
+            container.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                container.style.transition = 'all 0.6s ease';
+                container.style.opacity = '1';
+                container.style.transform = 'translateY(0)';
+            }, 100);
         });
     </script>
 </body>
