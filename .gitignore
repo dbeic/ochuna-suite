@@ -3,3 +3,7 @@
 *.bak.tier1b
 *.bak.tier2
 .DS_Store
+*.bak3
+__pycache__/
+*.pyc
+.pytest_cache/
