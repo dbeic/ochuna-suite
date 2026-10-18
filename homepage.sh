@@ -68,7 +68,7 @@ EOF
 <div class="grid">
   <div class="card">
     <h3>💰 Fintech</h3>
-    <p>Harambee Cash App — transparent community fundraising & contributions.</p>
+    <p>Harambee Cash App — a 30-second round game. KES 10 entry, random winner takes 90% of the pool. New users start with a KES 200 welcome loan, repaid from winnings at KES 10 per win.</p>
   </div>
   <div class="card">
     <h3>🌾 AgriTech</h3>
@@ -104,7 +104,7 @@ EOF
 <div class="grid">
   <a href="https://harambee-wasl.onrender.com" target="_blank" class="card" style="text-decoration:none; color:inherit;">
     <h3>💰 Harambee Cash App</h3>
-    <p>Community fundraising made simple and transparent.</p>
+    <p>A 30-second round game. KES 10 entry, random winner, KES 200 starter loan.</p>
   </a>
   <a href="https://mashamba-wzka.onrender.com" target="_blank" class="card" style="text-decoration:none; color:inherit;">
     <h3>🌾 Mashamba App</h3>
@@ -141,8 +141,8 @@ EOF
 
 <div class="news-item">
   <div class="date">Coming Soon</div>
-  <h3>Harambee Cash App — Public Beta</h3>
-  <p>Early users can now test transparent contribution tracking. Feedback welcome.</p>
+  <h3>Harambee Cash App</h3>
+  <p>A 30-second round game with a KES 10 entry and random winner selection. New users get a KES 200 starter loan, repaid from winnings at KES 10 per win.</p>
 </div>
 
 <div class="news-item">
@@ -168,7 +168,7 @@ EOF
 <div class="grid">
   <div class="card">
     <h3>💰 Harambee Cash App</h3>
-    <p>How to create a fundraising campaign, invite contributors, and withdraw funds.</p>
+    <p>Registration, the KES 200 welcome loan, KES 10 game entry, and how winnings and withdrawals work.</p>
   </div>
   <div class="card">
     <h3>🌾 Mashamba App</h3>

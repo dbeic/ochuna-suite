@@ -1,0 +1,5 @@
+*.bak
+*.bak.tier1
+*.bak.tier1b
+*.bak.tier2
+.DS_Store

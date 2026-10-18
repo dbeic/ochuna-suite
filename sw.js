@@ -1,6 +1,6 @@
 /* Ochuna Suite — Service Worker: offline-first caching */
 
-const CACHE_NAME = 'ochuna-suite-v1';
+const CACHE_NAME = 'ochuna-suite-v2';
 
 const PRECACHE = [
   './',
