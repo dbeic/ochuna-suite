@@ -1,6 +1,6 @@
 {
-  "name": "Ochuna Software Suite",
-  "short_name": "Ochuna",
+  "name": "Ochuna-Suite",
+  "short_name": "Ochuna-suite",
   "description": "Enterprise software solutions for Kenya — fintech, agritech, retail and community tools.",
   "start_url": "./index.html",
   "scope": "./",
